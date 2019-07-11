@@ -1,4 +1,5 @@
-function kaggleFilter() {
+function kaggleFilterTest() {
   var threads = GmailApp.search("from: 'noreply@kaggle.com' is:unread");
-  return threads;
+  Logger.log(threads);
 }
+

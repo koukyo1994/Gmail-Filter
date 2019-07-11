@@ -7,6 +7,8 @@ function postMessage(message, channelId) {
     channelId, 
     message, 
     {
-      username: "Gmail Filter"
+      username: "Gmail Filter",
+      icon_url: "https://curio-shiki.com/blog/wp-content/uploads/2018/04/Gmail_Icon.png"
     })
 }
+
